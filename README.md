@@ -224,4 +224,4 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
 [Python.org]: https://1000logos.net/wp-content/uploads/2020/08/Python-Logo.png
-[Python-url]: python.org
+[Python-url]: https://www.python.org/
