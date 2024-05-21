@@ -59,7 +59,7 @@ The goal of this project was to allow governments, businesses, investors and ana
 
 ### Built With
 
-* [![Python][python.org]][Python-url]
+[![Python][python.org]][Python-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,7 +210,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/pjsimba16/TrackingAsia-EAI.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
