@@ -5,6 +5,30 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/pjsimba16/TrackingAsia-EAI">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">Economic Activity Index</h3>
+
+  <p align="center">
+    Track business cycle trends using your own data.
+    <br />
+    <a href="https://github.com/pjsimba16/TrackingAsia-EAI"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/pjsimba16/TrackingAsia-EAI">View Demo</a>
+    ·
+    <a href="https://github.com/pjsimba16/TrackingAsia-EAI/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/pjsimba16/TrackingAsia-EAI/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+
 # TrackingAsia-EAI
 
 <!-- TABLE OF CONTENTS -->
