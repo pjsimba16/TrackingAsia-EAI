@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/pjsimba16/TrackingAsia-EAI">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://asianbondsonline.adb.org/macroeconomictracker/images/field-with-building-background-trackingasia2.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Economic Activity Index</h3>
