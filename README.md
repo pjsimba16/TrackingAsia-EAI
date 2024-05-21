@@ -13,11 +13,18 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#python-and-ide-installation">Python and IDE Installation</a></li>
+        <li><a href="#pysimplegui-sign-up">PySimpleGUI Sign Up</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#executable-usage">Executable Usage</a></li>
+    <li>
+      <a href="#python-and-command-line-interface">Python and Command Line Interface</a>
+      <ul>
+        <li><a href="#library/package-installation">Library/Package Installation</a></li>
+        <li><a href="#cli-usage">CLI Usage</a></li>
+      </ul>
+    </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -111,7 +118,7 @@ This is an example of how to list things you need to use the software and how to
   ```
 
 <!-- USAGE EXAMPLES -->
-### Usage
+### CLI Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
