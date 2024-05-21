@@ -22,6 +22,7 @@
       <ul>
         <li><a href="#python-and-ide-installation">Python and IDE Installation</a></li>
         <li><a href="#pysimplegui-sign-up">PySimpleGUI Sign Up</a></li>
+        <li><a href="#download-executable">Download Executable</a></li>
       </ul>
     </li>
     <li><a href="#executable-usage">Executable Usage</a></li>
@@ -102,6 +103,10 @@ To get a local copy up and running follow these simple example steps.
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Download Executable
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
