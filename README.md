@@ -12,7 +12,7 @@
     <img src="https://asianbondsonline.adb.org/macroeconomictracker/images/field-with-building-background-trackingasia2.jpg" alt="Logo">
   </a>
 
-  <h3 align="center">Economic Activity Index</h3>
+  <h3 align="center">Economic Activity Index Tracking Tool</h3>
 
   <p align="center">
     Track business cycle trends using your own data.
@@ -27,9 +27,6 @@
     <a href="https://github.com/pjsimba16/TrackingAsia-EAI/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
-
-# TrackingAsia-EAI
 
 <!-- TABLE OF CONTENTS -->
 <details>
