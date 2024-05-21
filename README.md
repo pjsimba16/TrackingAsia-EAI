@@ -50,10 +50,11 @@
     <li>
       <a href="#python-and-command-line-interface">Python and Command Line Interface</a>
       <ul>
-        <li><a href="#library/package-installation">Library/Package Installation</a></li>
+        <li><a href="#library-installation">Library Installation</a></li>
         <li><a href="#cli-usage">CLI Usage</a></li>
       </ul>
     </li>
+    <li><a href="#final-outputs">Final Outputs</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -133,15 +134,38 @@ To get a local copy up and running follow these simple example steps.
 
 ## Executable Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Home Screen
+![Home Screen](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/home_page.JPG)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Add Excel Template
+![Add Excel](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/add_excel.JPG)
+
+### Excel Template
+
+### Select Indicators
+![Select Indicators](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/indicator_selector.JPG)
+
+### Inspect Data
+![Inspect Data](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_data.JPG)
+
+### Inspect Processed Data
+![Inspect Processed Data](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_processed_data.JPG)
+
+### Edit Processing
+![Edit Processing 1](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_1.JPG)
+![Edit Processing 2](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_2.JPG)
+
+### Select Models
+![Select Models](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/select_models.JPG)
+
+### Running Operations Log
+![Running Operations](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/running_operations.JPG)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Python and Command Line Interface
 
-### Library/Package Installation
+### Library Installation
 
 This is an example of how to list things you need to use the software and how to install them.
 
@@ -159,7 +183,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Final Outputs
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
