@@ -208,31 +208,31 @@ To get a local copy up and running follow these simple example steps.
 ## Executable Usage
 
 ### Home Screen
-<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/home_page.JPG" width="" height="350">
+<p align="center"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/home_page.JPG" width="" height="350"></p></p>
 
 ### Add Excel Template
-<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/add_excel.JPG" width="" height="150">
+<p align="center"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/add_excel.JPG" width="" height="150"></p>
 
 ### Excel Template
 
 ### Select Indicators
-<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/indicator_selector.JPG" width="" height="350">
+<p align="center"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/indicator_selector.JPG" width="" height="350"></p>
 
 ### Inspect Data
-<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_data.JPG" width="" height="350">
+<p align="center"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_data.JPG" width="" height="350"></p>
 
 ### Inspect Processed Data
-<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_processed_data.JPG" width="" height="350">
+<p align="center"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_processed_data.JPG" width="" height="350"></p>
 
 ### Edit Processing
-<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_1.JPG" width="" height="200">
-<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_2.JPG" width="" height="200">
+<p align="center"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_1.JPG" width="" height="200"></p>
+<p align="center"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_2.JPG" width="" height="200"></p>
 
 ### Select Models
-<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/select_models.JPG" width="" height="350">
+<p align="center"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/select_models.JPG" width="" height="350"></p>
 
 ### Running Operations Log
-<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/running_operations.JPG" width="" height="250">
+<p align="center"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/running_operations.JPG" width="" height="250"></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
