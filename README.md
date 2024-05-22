@@ -238,22 +238,20 @@ To get a local copy up and running follow these simple example steps.
 
 ## Python and Command Line Interface
 
-### Library Installation
+### Library Installation and CLI Usage
 
 The EAI program executable was built to include all relevent packages, including Python. However, if the executable doesn't run on your device, you can still run the program using Python and the command line interface (CLI). 
 
-
-* Other dependencies
-  ```sh
-  npm install npm@latest -g
+1. Open your file explorer to the location where you saved the EAI_script.py file.
+2. Click on the filepath on the top of the screen, type 'cmd' and press enter. This should open a terminal screen inside your chosen directory.
+3. Ensure all relevant dependencies are installed before running the program. If dependencies are not yet installed, run the following:
   ```
-
-<!-- USAGE EXAMPLES -->
-### CLI Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+python install_dependencies.py
+   ```
+4. Once dependencies are installed; run the following line to run the script.
+  ```
+python EAI_script.py
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -264,15 +262,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Build all required files.
+- [x] Build executables for MacOS and Windows.
+- [ ] Incorporate multithreading to avoid program not running errors.
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/pjsimba16/TrackingAsia-EAI/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -281,15 +275,12 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -306,11 +297,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Contact Developers
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Patrick Jaime A. Simba - [LinkedIn](https://www.linkedin.com/in/patrick-jaime-simba/) - psimba.consultant@adb.org
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Sharyl Rose T. Sy - [LinkedIn](https://ph.linkedin.com/in/sharylsy) - srsy.consultant@adb.org
+
+
+Project Link: [https://github.com/pjsimba16/TrackingAsia-EAI](https://github.com/pjsimba16/TrackingAsia-EAI)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -319,16 +313,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
