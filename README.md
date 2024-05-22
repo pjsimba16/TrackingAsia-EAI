@@ -208,31 +208,31 @@ To get a local copy up and running follow these simple example steps.
 ## Executable Usage
 
 ### Home Screen
-![Home Screen](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/home_page.JPG)
+<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/home_page.JPG" width="" height="350">
 
 ### Add Excel Template
-![Add Excel](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/add_excel.JPG)
+<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/add_excel.JPG" width="" height="150">
 
 ### Excel Template
 
 ### Select Indicators
-![Select Indicators](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/indicator_selector.JPG)
+<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/indicator_selector.JPG" width="" height="350">
 
 ### Inspect Data
-![Inspect Data](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_data.JPG)
+<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_data.JPG" width="" height="350">
 
 ### Inspect Processed Data
-![Inspect Processed Data](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_processed_data.JPG)
+<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_processed_data.JPG" width="" height="350">
 
 ### Edit Processing
-![Edit Processing 1](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_1.JPG)
-![Edit Processing 2](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_2.JPG)
+<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_1.JPG" width="" height="200">
+<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_2.JPG" width="" height="200">
 
 ### Select Models
-![Select Models](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/select_models.JPG)
+<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/select_models.JPG" width="" height="350">
 
 ### Running Operations Log
-![Running Operations](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/running_operations.JPG)
+<img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/running_operations.JPG" width="" height="250">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,7 +240,8 @@ To get a local copy up and running follow these simple example steps.
 
 ### Library Installation
 
-This is an example of how to list things you need to use the software and how to install them.
+The EAI program executable was built to include all relevent packages, including Python. However, if the executable doesn't run on your device, you can still run the program using Python and the command line interface (CLI). 
+
 
 * Other dependencies
   ```sh
