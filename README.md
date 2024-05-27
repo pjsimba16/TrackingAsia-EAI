@@ -211,7 +211,8 @@ To get a local copy up and running follow these simple example steps.
   **Directory summary:**
   - **EAI_script.py** -> Source code containing the GUI and machine learning functions used in the executable file.
   - **EAI_template.xlsx** -> Template file to be used when adding data to be included in the EAI prediction and visualization generation.
-  - **EAI_program.exe** -> Final executable file.
+  - **EAI_program_windows.exe** -> Final executable file for Windows.
+  - **EAI_program_mac.exe** -> Final executable file for MacOS.
   
 </details>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
