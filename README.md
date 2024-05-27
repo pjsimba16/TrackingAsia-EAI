@@ -36,8 +36,8 @@
 - installation_pre_read.ipynb: Installation guide.
 - TA_logo.ico: executable logo icon.
 - EAI_program.exe: Executable program.
-
-***
+- Resources: ReadMe resource files.
+---
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -225,13 +225,13 @@ To get a local copy up and running follow these simple example steps.
 
   The home screen contains information that can also be found on the [TrackingAsia website](https://asianbondsonline.adb.org/macroeconomictracker/index.php), where you can also find the updated EAI dashboards for selected Asian economies.
 
-  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/home_page.JPG" width="" height="350"></p></p>
+  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_images/home_page.JPG" width="" height="350"></p></p>
 
   ### Add Excel Template
 
   The excel template where you've added your indicator and GDP level data series should be referenced to using the browse button in this screen. A quick rundown of the sheets in the excel template can be found in the section below.
 
-  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/add_excel.JPG" width="" height="150"></p>
+  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_images/add_excel.JPG" width="" height="150"></p>
 
   ### Excel Template
 
@@ -248,37 +248,37 @@ To get a local copy up and running follow these simple example steps.
 
   The indicator selection screen summarizes all the indicators found in the excel file, separated into one of six economic sectors, together with the target variable. You may also inspect the data or reconfigure the preprocessing steps for each data series by clicking on the inspect data or edit processing buttons respectively.
 
-  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/indicator_selector.JPG" width="" height="350"></p>
+  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_images/indicator_selector.JPG" width="" height="350"></p>
 
   ### Inspect Data
 
   This screen will show you a line chart with the date on the x axis and a chosen data series on the y axis. The table on the right contains summary statistics for the chosen data series. You can choose which data series and frequency to inspect using the dropdowns on the left. Morever, you may choose preprocessing steps using the checkboxes and inspect what the data will look like post processing by clicking the inspect processed data button. You can also save the chart or underlying data using the save buttons below the chart.
 
-  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_data.JPG" width="" height="350"></p>
+  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_images/inspect_data.JPG" width="" height="350"></p>
 
   ### Inspect Processed Data
 
   This screen shows you a line chart with the date on the x axis and a chosen data series on the y axis for the processed data. You will find the selected processing steps listed on the right, below the summary statistics. Similarly, you can save the chart or underlying data using the save buttons below the chart.
 
-  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/inspect_processed_data.JPG" width="" height="350"></p>
+  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_images/inspect_processed_data.JPG" width="" height="350"></p>
 
   ### Edit Processing
 
   In this screen, you can change the processing steps associated with each data series, as well as choose whether or not to include each variable in the modelling. If you'd like to, you may also save the settings that you change directly into the original excel file.
 
-  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/edit_processing_2.JPG" width="" height="200"></p>
+  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_images/edit_processing_2.JPG" width="" height="200"></p>
 
   ### Select Models
 
   In this screen, you can determine the starting and ending dates to use for the initial model training process. If left blank, the models will initially be trained on the earliest 50% of the dataset. Below that, you need to choose a location that you'd like all the outputs to be saved in. We suggest that you create a new folder for each particular modelling run. Lastly, use the checkboxes to select the models you'd like to get outputs from using your dataset.
 
-  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/select_models.JPG" width="" height="350"></p>
+  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_images/select_models.JPG" width="" height="350"></p>
 
   ### Running Operations Log
 
   The log screen will show you the progress of the entire process. Don't worry if windows informs you that the screen is not responding, this is a bug that occurs when functions run for a long time; just wait for the screen to end. This will be addressed in future versions using multithreading.
 
-  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Demo/running_operations.JPG" width="" height="250"></p>
+  <p align="left"><img src="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_images/running_operations.JPG" width="" height="250"></p>
 
 </details>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -313,10 +313,11 @@ To get a local copy up and running follow these simple example steps.
 
   - For each model chosen:
     - Folder named after the model
-      - data.xlsx: contains all the raw and calculated data for this model, including EAI predictions monthly and quarterly.
-      - EAI_dashboard.pdf: contains component charts to breakdown EAI based on economic sector importance, and a business cycle chart showing a comparison between predicted EAI and real GDP growth gap values.
-    - EAI_dial_charts.pdf: contains dial charts for EAI, GDP growth gap and each economic sector for the past 3 years.
-  - EAI_predictions_comparison.pdf: contains a line chart comparing the performance of each model when predicting EAI against real GDP growth gap, together with bar charts comparing metrics (R2, MSE, RMSE).
+      - [data.xlsx](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/data.xlsx): contains all the raw and calculated data for this model, including EAI predictions monthly and quarterly.
+      - [EAI_dashboard.pdf](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/EAI_dashboard.pdf): contains component charts to breakdown EAI based on economic sector importance, and a business cycle chart showing a comparison between predicted EAI and real GDP growth gap values.
+    - [EAI_dial_charts.pdf](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/EAI_dial_charts.pdf): contains dial charts for EAI, GDP growth gap and each economic sector for the past 3 years.
+  - [EAI_predictions_comparison.pdf](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/EAI_predictions_comparison.pdf): contains a line chart comparing the performance of each model when predicting EAI against real GDP growth gap, together with bar charts comparing metrics (R2, MSE, RMSE).
+  - [ml_error_metrics.csv](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/ml_error_metrics.csv): metrics data.
 
   You may click on any of the files above to see a sample version.
 
