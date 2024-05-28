@@ -317,7 +317,7 @@ To get a local copy up and running follow these simple example steps.
       - [data.xlsx](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/data.xlsx): contains all the raw and calculated data for this model, including EAI predictions monthly and quarterly.
       - [EAI_dashboard.pdf](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/EAI_dashboard.pdf): contains component charts to breakdown EAI based on economic sector importance, and a business cycle chart showing a comparison between predicted EAI and real GDP growth gap values.
     - [EAI_dial_charts.pdf](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/EAI_dial_charts.pdf): contains dial charts for EAI, GDP growth gap and each economic sector for the past 3 years.
-  - [EAI_predictions_comparison.pdf](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/EAI_predictions_comparison.pdf): contains a line chart comparing the performance of each model when predicting EAI against real GDP growth gap, together with bar charts comparing metrics (R2, MSE, RMSE).
+  - [EAI_predictions_comparison.pdf](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/EAI_predictions_comparison.pdf): contains a line chart comparing the performance of each model when predicting EAI against real GDP growth gap, together with bar charts comparing metrics (R2, MAE, RMSE).
   - [ml_error_metrics.csv](https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/Resources/demo_files/ml_error_metrics.csv): metrics data.
 
   You may click on any of the files above to see a sample version.
