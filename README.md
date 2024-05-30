@@ -333,6 +333,7 @@ To get a local copy up and running follow these simple example steps.
 - [x] Build all required files.
 - [x] Build executables for MacOS and Windows.
 - [ ] Incorporate multithreading to avoid program not running errors.
+- [ ] GUI for automatic data extraction from CEIC into EAI template for modelling
 
 See the [open issues](https://github.com/pjsimba16/TrackingAsia-EAI/issues) for a full list of proposed features (and known issues).
 
