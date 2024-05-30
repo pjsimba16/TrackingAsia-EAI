@@ -1446,6 +1446,8 @@ def merge_data(added_data_dict, monthly_info, quarterly_info):
     date_norm_df = date_norm_df[date_norm_df['date'] >= datetime(1990,1,1)]
     
     #merge EAI data
+    date_norm_df['date'] = pd.to_datetime(date_norm_df['date'])
+    indicator_df['date'] = pd.to_datetime(indicator_df['date'])
     if list(date_norm_df['date'])[-1] < list(indicator_df['date'])[-1]:
         df_ls = [indicator_df, date_norm_df]
     else:
