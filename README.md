@@ -31,7 +31,7 @@
 
 ## Github Directory
 
-- EAI_template.xlsx: Template for adding data.
+- EAI_excel_template.xlsx: Template for adding data.
 - EAI_script.py: Current Python script used for the executable. Can be ran using CLI.
 - installation_pre_read.ipynb: Installation guide.
 - TA_logo.ico: executable logo icon.
