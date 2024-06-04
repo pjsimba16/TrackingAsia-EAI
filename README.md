@@ -31,12 +31,16 @@
 
 ## Github Directory
 
+- Resources: ReadMe resource files.
+- country_samples: Sample, country specific data for EAI program testing.
+- logos: TrackingAsia and CEIC logo icons.
+- scripts: Python scripts for CEIC extraction and EAI modelling programs.
+- CEIC_extraction_template.xlsx: Template for extracting data from CEIC using the PyCEIC package.
 - EAI_excel_template.xlsx: Template for adding data.
 - EAI_script.py: Current Python script used for the executable. Can be ran using CLI.
+- TrackingAsia_code_overview.pptx: Quick rundown of the code behind the EAI program.
 - installation_pre_read.ipynb: Installation guide.
-- TA_logo.ico: executable logo icon.
-- EAI_program.exe: Executable program.
-- Resources: ReadMe resource files.
+
 ---
 
 <!-- TABLE OF CONTENTS -->
@@ -334,6 +338,7 @@ To get a local copy up and running follow these simple example steps.
 - [x] Build executables for MacOS and Windows.
 - [ ] Incorporate multithreading to avoid program not running errors.
 - [ ] GUI for automatic data extraction from CEIC into EAI template for modelling
+- [ ] Add functionality for annual data.
 
 See the [open issues](https://github.com/pjsimba16/TrackingAsia-EAI/issues) for a full list of proposed features (and known issues).
 
