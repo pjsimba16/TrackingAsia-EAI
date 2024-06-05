@@ -63,6 +63,7 @@
       </ul>
     </li>
     <li><a href="#executable-usage">Executable Usage</a></li>
+    <li><a href="#ceic-data-extraction-tool">CEIC Data Extraction Tool</a></li>
     <li>
       <a href="#python-and-command-line-interface">Python and Command Line Interface</a>
       <ul>
@@ -244,6 +245,8 @@ To get a local copy up and running follow these simple example steps.
 
   ### Excel Template
 
+  You may add the data series that you would like to include in the EAI machine learning analysis within the excel template. Just ensure that the filename contains 'EAI_excel_template' in it. While the template can be filled in manually, you may also utilize the automatic data extraction tool that we created, if you have access to CEIC's Python API (PyCEIC).
+
   The excel template contains 5 sheets:
   - Instructions: Guide for accepted values in each column for each sheet.
   - InfoQ: Information for each data series of quarterly frequency.
@@ -251,7 +254,9 @@ To get a local copy up and running follow these simple example steps.
   - InfoM: Information for each data series of monthly frequency.
   - MonthData: Where you can input the series name and datapoints of monthly frequency.
 
-  Reminder: Ensure that data series titles are uniform across data and info sheets.
+  Reminders: 
+  - The current version of the program is optimized to run with quarterly GDP data as the target variable and monthly indicators for other data series. You may encounter errors if you use any other frequency data series.
+  - Ensure that data series titles are uniform across data and info sheets.
 
   ### Select Indicators
 
@@ -291,6 +296,23 @@ To get a local copy up and running follow these simple example steps.
 
 </details>
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## CEIC Data Extraction Tool
+
+<details>
+  <summary>CEIC Data Extraction Tool</summary>
+
+If you have access to the CEIC Python API, you may use our custom data extraction tool.
+
+1. Login to [CEIC](https://insights.ceicdata.com/login) and use their interface to find and list down data series IDs that you would like to use in your analysis.
+2. Input the data IDs in the CEIC_extraction_template.xlsx file and select economic categories for each one.
+3. Run the CEIC_extraction_program.exe executable file.
+    - Login to CEIC.
+    - Choose the extraction template and the location where you would like to place the final file.
+    - Choose a name for the file. This filename will appear at the end of 'EAI_excel_template_' (eg. if you choose filename to be test_v1, the file EAI_excel_template_test_v1.xlsx will be saved in your chosen folder.)
+4. The final excel file will be ready to be used in the main executable file.
+
+</details> 
 
 ## Python and Command Line Interface
 
