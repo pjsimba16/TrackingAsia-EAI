@@ -2858,17 +2858,20 @@ def plot_dial_charts_all(fileloc, plot_fig=False):
         year = date.year
         df_qtr_cycle = df_clean_quarterly_cycle(fileloc, quarter_number, year) 
         eai_values, sector_full, df_prev_val, df_curr_val, df_sector_val = df_sector_dials(fileloc, month, year)
-        if quarter_prev != quarter_number:
+        #plot quarter first
+        if (quarter_prev != quarter_number) and not (df_qtr_cycle.dropna(subset=['prev', 'curr', 'arrow_cat'], how='all').empty): #if new quarter
             fig_dial = plot_quarterly_cycle(quarter_number, year, fileloc, df_qtr_cycle, plot_fig)
-            fig_dial_sector = plot_sector_dials(month, year, eai_values, sector_full, df_prev_val, df_curr_val, df_sector_val, plot_fig)
             fig_list.append(fig_dial)
-            fig_list.append(fig_dial_sector)
             quarter_prev = quarter_number
+
+        #plot dials next
+        if all(np.isnan(df_sector_val)) and (np.isnan(eai_values[-1])): #do not plot if no dial data
+            pass
         else:
             fig_dial_sector = plot_sector_dials(month, year, eai_values, sector_full, df_prev_val, df_curr_val, df_sector_val, plot_fig)
             fig_list.append(fig_dial_sector)
     save_pdf_plt(fig_list, f'{fileloc.replace("data.xlsx", "")}' + "EAI_dial_charts.pdf")
-    
+
 #3. Error
 def clean_df(fileloc):
     df_eai = pd.read_excel(fileloc, sheet_name=4)
@@ -3112,16 +3115,18 @@ def UI_progress_screen(event, model_selection, added_data_dict, date_dict, month
     window.close()
 
 
-# In[63]:
+# In[67]:
 
 
 #run initial GUI process to gather all relevant information before running back end functions
 event, model_selection, added_data_dict, date_dict, monthly_info, quarterly_info, output_path = UI_process_flow()
 
 
-# In[64]:
+# In[68]:
 
 
 #run back end functions and show progress screen
 UI_progress_screen(event, model_selection, added_data_dict, date_dict, monthly_info, quarterly_info, output_path)
 
+
+# ### 
