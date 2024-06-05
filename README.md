@@ -314,6 +314,8 @@ If you have access to the CEIC Python API, you may use our custom data extractio
 
 </details> 
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Python and Command Line Interface
 
 <details>
