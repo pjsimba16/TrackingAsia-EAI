@@ -40,6 +40,7 @@
 - EAI_script.py: Current Python script used for the executable. Can be ran using CLI.
 - TrackingAsia_code_overview.pptx: Quick rundown of the code behind the EAI program.
 - installation_pre_read.ipynb: Installation guide.
+- requirements.txt: Contains required packages to install before running the code for the first time.
 
 ---
 
@@ -299,7 +300,7 @@ To get a local copy up and running follow these simple example steps.
   2. Click on the filepath on the top of the screen, type 'cmd' and press enter. This should open a terminal screen inside your chosen directory.
   3. Ensure all relevant dependencies are installed before running the program. If dependencies are not yet installed, run the following:
   ```
-  python install_dependencies.py
+  pip install -r requirements.txt
   ```
   1. Once dependencies are installed; run the following line to run the script.
   ```
