@@ -120,56 +120,38 @@ To get a local copy up and running follow these simple example steps.
   A Quick Guide for Installing Python on Common Operating Systems
 
   #### Windows ![Windows](https://github.com/PackeTsar/Install-Python/raw/master/img/windows_65.png)
-  1. If you have not yet installed Python on your Windows OS, then download and install the latest Python3 installer from [Python Downloads Page](https://www.python.org/downloads/)
-    - Make sure to check the box during installation which adds Python to PATH. Labeled something like **Add Python 3.X to PATH**
+  1. Visit the official download page for Python on the Windows operating system: https://www.python.org/downloads/windows/ and locate a reliable version of Python 3, preferably the Python 3.11.8 version
+  2. Choose the correct link for your device from the options provided: preferably Windows installer (64-bit) and proceed to download the executable file.
+  3. Once you have downloaded the installer, open the .exe file, such as python-3.11.8-amd64.exe, by double-clicking it to launch the Python installer.
+    - Choose the option to Install the launcher for all users by checking the corresponding checkbox, so that all users of the computer can access the Python launcher application.
+    - Enable users to run Python from the command line by checking the Add python.exe to PATH checkbox.
 
-  2. Once Python is installed, you should be able to open a command window, type `python`, hit ENTER, and see a Python prompt opened. Type `quit()` to exit it. You should also be able to run the command `pip` and see its options. If both of these work, then you are ready to go.
-    - If you cannot run `python` or `pip` from a command prompt, you may need to add the Python installation directory path to the Windows PATH variable
-      - The easiest way to do this is to find the new shortcut for Python in your start menu, right-click on the shortcut, and find the folder path for the `python.exe` file
-        - For Python2, this will likely be something like `C:\Python27`
-        - For Python3, this will likely be something like `C:\Users\<USERNAME>\AppData\Local\Programs\Python\Python37`
-      - Open your Advanced System Settings window, navigate to the "Advanced" tab, and click the "Environment Variables" button
-      - Create a new system variable:
-        - Variable name: `PYTHON_HOME`
-        - Variable value: <your_python_installation_directory>
-      - Now modify the PATH system variable by appending the text `;%PYTHON_HOME%\;%PYTHON_HOME%;%PYTHON_HOME%\Scripts\` to the end of it.
-      - Close out your windows, open a command window and make sure you can run the commands `python` and `pip`
+  <p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20230503122459/p1.jpg" width="" height=""></p>
+
+  4. After Clicking the Install Now Button the setup will start installing Python on your Windows system.
+  5. To verify successful installation, access the command line, click on the Start menu and type “cmd” in the search bar. Then click on Command Prompt. Type “python --version” on the command line.
+  
+  <p align="center"><img src="https://media.geeksforgeeks.org/wp-content/uploads/20230503123238/p4.png" width="" height=""></p>
+
+  [Reference: More Information](https://www.geeksforgeeks.org/how-to-install-python-on-windows/?ref=ml_lbp)
 
   #### MacOS ![MacOS](https://github.com/PackeTsar/Install-Python/raw/master/img/apple_65.png)
 
-  MacOS comes with a native version of Python. As of this writing, it comes with a version of Python2, which has been deprecated. In order to use most modern Python applications, you need to install Python3. Python2 and Python3 can coexist on the same machine without problems, and for MacOS it is in fact necessary for this to happen, since MacOS continues to rely on Python2 for some functionality.
+  1. Download an installer package from https://www.python.org/downloads/; it detects your operating system automatically and shows a big button for downloading the latest version of Python installer on your Mac. If it doesn't, click the macOS link and choose the latest Python release.
+  2. Once the download is complete, double-click the package to start installing Python. The installer will walk you through a wizard to complete the installation, and in most cases, the default settings work well, so install it like the other applications on macOS. You may also have to enter your Mac password to let it know that you agree with installing Python. NOTE If you're using Apple M1 Mac, you need to install Rosetta. Rosetta enables Intel-based features to run on Apple silicon Macs.
 
-  There are a couple of ways we can install Python3 on your MacOS operating system:
+  <p align="center"><img src="https://www.dataquest.io/wp-content/uploads/2022/01/installing-python-on-mac-screenshot-r.webp" width="" height=""></p>
 
-  #### Option 1: Install the official Python release
-  1. Browse to the [Python Downloads Page](https://www.python.org/downloads/)
-  2. Click on the "Download Python 3.x.x" button on the page
-  3. Walk through the steps of the installer wizard to install Python3
-  4. Once installed, the wizard will open a Finder window with some `.command` files in it
-      - Double-click the `Install Certificates.command` file and the `Update Shell Profile.command` file to run each of them
-      - Close the windows once they are finished
-  6. Open your **Terminal** application and run the command `python3` to enter the Python interactive command line. Issue the command `quit()` to exit. Also make sure PIP (the Python package manager) is installed by issuing the command `pip3 -V`. It should display the current version of PIP as well as Python (which should be some release of Python3).
-  7. You're all done. Python is installed and ready to use.
+  3. When the installation completes, it will open up the Python folder.
 
-  #### Option 2: Install with Homebrew
-  [Homebrew](https://brew.sh/) is a MacOS Linux-like package manager. Walk through the below steps to install Homebrew and an updated Python interpreter along with it.
+  <p align="center"><img src="https://www.dataquest.io/wp-content/uploads/2022/01/installing-python-on-mac-screenshot-q.webp" width="" height=""></p>
 
-  1. Open your **Terminal** application and run: `xcode-select --install`. This will open a window. Click **'Get Xcode'** and install it from the app store.
-  2. Install Homebrew. Run: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-    - You can also find this command on the [Homebrew website](https://brew.sh/)
-  3. Install latest Python3 with `brew install python`
-  4. Once Python is installed, you should be able to open your **Terminal** application, type `python3`, hit ENTER, and see a Python 3.X.X prompt opened. Type `quit()` to exit it. You should also be able to run the command `pip3` and see its options. If both of these work, then you are ready to go.
-    - Here are some additional resources on [Installing Python 3 on Mac OS X](https://docs.python-guide.org/starting/install3/osx/)
+  4. Let’s verify that the latest version of Python and IDLE installed correctly. To do that, double-click IDLE, which is the integrated development environment shipped with Python. If everything works correctly, IDLE shows the Python shell as follows
 
-  #### Linux ![Linux](https://github.com/PackeTsar/Install-Python/raw/master/img/linux_65.png)
-  - **Raspberry Pi OS** may need Python and PIP
-    - Install them: `sudo apt install -y python3-pip`
-  - **Debian (Ubuntu)** distributions may need Python and PIP
-    - Update the list of available APT repos with `sudo apt update`
-    - Install Python and PIP: `sudo apt install -y python3-pip`
-  - **RHEL (CentOS)** distributions usually need PIP
-    - Install the EPEL package: `sudo yum install -y epel-release`
-    - Install PIP: `sudo yum install -y python3-pip`
+  <p align="center"><img src="https://www.dataquest.io/wp-content/uploads/2022/01/installing-python-on-mac-screenshot-p.webp" width="" height=""></p>
+
+  [Reference: More Information](https://www.dataquest.io/blog/installing-python-on-mac/)  
+
 </details>
 <details>
   <summary>Visual Studio Code</summary>
@@ -178,6 +160,22 @@ To get a local copy up and running follow these simple example steps.
 
   Visual Studio Code is a free coding editor that helps you start coding quickly. Use it to code in any programming language, without switching editors. Visual Studio Code has support for many languages, including Python, Java, C++, JavaScript, and more. [Learn more](https://code.visualstudio.com/)
 
+  #### For Windows
+
+  1. Download the Visual Studio Code installer for Windows: https://code.visualstudio.com/docs?dv=win
+  2. Once it is downloaded, run the installer (VSCodeUserSetup-{version}.exe). This will only take a minute.
+  
+  #### For MacOS
+
+  1. Download Visual Studio Code for macOS: https://code.visualstudio.com/docs?dv=osx
+  2. Open the browser's download list and locate the downloaded app or archive.
+  3. If archive, extract the archive contents. Use double-click for some browsers or select the 'magnifying glass' icon with Safari.
+  4. Drag Visual Studio Code.app to the Applications folder, making it available in the macOS Launchpad.
+  <p align="center"><img src="https://www.dataquest.io/wp-content/uploads/2022/01/installing-python-on-mac-screenshot-k.webp" width="" height=""></p> 
+  5. Open VS Code from the Applications folder, by double clicking the icon.
+
+
+  #### Video Instructions
 
   The following video will run through the following:
   - Download and install VS Code.
@@ -195,15 +193,19 @@ To get a local copy up and running follow these simple example steps.
 
   ### PySimpleGUI Sign Up
 
-  1. Go to the [PySimpleGUI website](https://www.pysimplegui.com/) and sign up for a hobbyist account
-  2. Make sure Python is installed
-  3. Install PysimpleGUI using the command line interface
-     1. Search for 'cmd' on your home search bar
-     2. Enter the following:
-   
-        ```
-        python -m pip install pysimplegui
-        ```
+  PySimpleGUI is a Python library that simplifies the creation of graphical user interfaces (GUIs).
+
+  1. Register as a hobbyist in PySimpleGUI by selecting “Get Started as Hobbyist”: https://www.pysimplegui.com/pricing
+  2. Fill in details to create an account as a hobbyist and confirm all terms and conditions (Note: GitHub ID is optional)
+  3. Enter verification code sent to registered email
+  4. Copy the license key provided
+  5. he first time you run PySimpleGUI you will see a series of windows beginning with this Welcome Window. Check the terms and click OK.
+
+  <p align="center"><img src="https://docs.pysimplegui.com/en/latest/documentation/installing_licensing/install1.jpg" width="" height=""></p> 
+
+  6. The final step is to paste your license key on the panel.
+
+  <p align="center"><img src="https://docs.pysimplegui.com/en/latest/documentation/installing_licensing/install2.jpg" width="" height=""></p> 
 
 </details>
 
@@ -214,8 +216,9 @@ To get a local copy up and running follow these simple example steps.
   You can download the executable program, together with other relevant files in this [current version folder.](https://drive.google.com/drive/folders/1YlF_lXOGKMl3tJViK1rGmYh69GXVGhJV?usp=drive_link) The files in this folder will always contain the latest versions of each. If you would like to see older versions of each file, you can find them in the [version history folder.](https://drive.google.com/drive/folders/1kxTxQAlclVArnTpcQ2577LFQrl7fP3Pb?usp=drive_link)
 
   **Directory summary:**
-  - **EAI_script.py** -> Source code containing the GUI and machine learning functions used in the executable file.
-  - **EAI_template.xlsx** -> Template file to be used when adding data to be included in the EAI prediction and visualization generation.
+  - **EAI_excel_template.xlsx** -> Template file to be used when adding data to be included in the EAI prediction and visualization generation.
+  - **CEIC_extraction_template.xlsx** -> CEIC extraction template for automatic extraction program.
+  - **CEIC_extraction_program.exe** -> CEIC extraction executable program.
   - **EAI_program_windows.exe** -> Final executable file for Windows.
   - **EAI_GUI_MacOS.dmg** -> Final executable file for MacOS.
   
