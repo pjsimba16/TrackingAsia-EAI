@@ -312,6 +312,8 @@ If you have access to the CEIC Python API, you may use our custom data extractio
     - Choose a name for the file. This filename will appear at the end of 'EAI_excel_template_' (eg. if you choose filename to be test_v1, the file EAI_excel_template_test_v1.xlsx will be saved in your chosen folder.)
 4. The final excel file will be ready to be used in the main executable file.
 
+Reminder: By default, each data series will have pre-selected preprocessing steps including normalization and YoY growth calculation, you may change this on the generated file later.
+
 </details> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
