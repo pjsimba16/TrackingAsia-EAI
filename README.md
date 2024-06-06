@@ -21,7 +21,7 @@
     <a href="https://github.com/pjsimba16/TrackingAsia-EAI"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/pjsimba16/TrackingAsia-EAI">View Demo</a>
+    <a href="https://github.com/pjsimba16/TrackingAsia-EAI/blob/main/README.md#executable-usage">View Demo</a>
     ·
     <a href="https://github.com/pjsimba16/TrackingAsia-EAI/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
