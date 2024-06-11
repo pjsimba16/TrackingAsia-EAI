@@ -200,7 +200,7 @@ To get a local copy up and running follow these simple example steps.
   2. Fill in details to create an account as a hobbyist and confirm all terms and conditions (Note: GitHub ID is optional)
   3. Enter verification code sent to registered email
   4. Copy the license key provided
-  5. he first time you run PySimpleGUI you will see a series of windows beginning with this Welcome Window. Check the terms and click OK.
+  5. The first time you run PySimpleGUI you will see a series of windows beginning with this Welcome Window. Check the terms and click OK.
 
   <p align="center"><img src="https://docs.pysimplegui.com/en/latest/documentation/installing_licensing/install1.jpg" width="" height=""></p> 
 
