@@ -367,6 +367,8 @@ Reminder: By default, each data series will have pre-selected preprocessing step
 - [x] Build all required files.
 - [x] Build executables for MacOS and Windows.
 - [x] GUI for automatic data extraction from CEIC into EAI template for modelling
+- [ ] Add screen resolution window resizing support
+- [ ] Expand elements when resizing windows.
 - [ ] Incorporate multithreading to avoid program not running errors.
 - [ ] Add functionality for annual data.
 
